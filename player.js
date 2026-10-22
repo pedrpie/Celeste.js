@@ -148,7 +148,6 @@ ctx.globalAlpha = 1.0; // <--- Restaura a opacidade normal para os projéteis e 
                 projetil.x <= canvas.width // Mantém apenas os projéteis que estão dentro da largura do canvas
         );
     }
-    // Fim da Parte de Luiz Henrique
 
     // função que faz o jogador andar e pular pelo canvas
     updatePlayer(platforms){
